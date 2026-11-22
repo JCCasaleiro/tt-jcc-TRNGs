@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+16 Ring oscillators in parallel. Each ring oscillator have 1 input enable to start (Active high). Each enable input enables 2 ring oscillators. The output of each ring oscillator is sampled by a D-type Flip-Flop triggered by the input sampling clock.  
 
 ## How to test
 
-Explain how to use your project
+Enable one of the eight input enables setting it to a logic high. Next turn on the sampling clock signal. Capture the respective output signal for the available 16. The output of each should be random. 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Requires a signal generator for the sample clock and a logic analyzer or equivalent acquisition equipment to record the output random bitstream.
