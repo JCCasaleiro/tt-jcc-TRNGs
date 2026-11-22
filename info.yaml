@@ -1,49 +1,49 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  wokwi_id: "481349452228670465" # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title: "TrueRandomNumbGen" # Project title
+  author: "João Casaleiro" # Your name
+  discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description: "True Random Number Generator Parallel Ring Oscillators 14
+    inverters + 1 nand gate" # One line description of what your project does
+  language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz: 0 # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
-  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-
+  tiles: "1x1" # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "EN0"
+  ui[1]: "EN1"
+  ui[2]: "EN2"
+  ui[3]: "EN3"
+  ui[4]: "EN4"
+  ui[5]: "EN5"
+  ui[6]: "EN6"
+  ui[7]: "EN7"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "RO0"
+  uo[1]: "RO1"
+  uo[2]: "RO2"
+  uo[3]: "RO3"
+  uo[4]: "RO4"
+  uo[5]: "RO5"
+  uo[6]: "RO6"
+  uo[7]: "RO7"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "RO8"
+  uio[1]: "RO9"
+  uio[2]: "RO10"
+  uio[3]: "RO11"
+  uio[4]: "RO12"
+  uio[5]: "RO13"
+  uio[6]: "RO14"
+  uio[7]: "RO15"
 
 # Do not change!
 yaml_version: 6
